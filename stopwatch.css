@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;;
+}
+
+.stopwatch{
+   background-color: rgba(33, 33, 33, 0.9);
+   width: 200px;
+   height:200px;
+   color: white;
+   border: 2px solid transparent;
+}
+
+.buttons{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons{
+    justify-content: space-evenly;
+    padding: 15px;
+    
+}
+
+.buttons:hover{
+    cursor: pointer;
+}
